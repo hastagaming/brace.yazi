@@ -4,16 +4,17 @@ no shell calls, no external dependencies.
 
 ---
 
+- [Feature](#Features)
 - [Installation](#Installation)
-- [Configuration](#Keymap Configuration)
-- [Examples](#Usage Examples)
-- [Supported Patterns](#Supported Patterns)
+- [Configuration](#Keymap-Configuration)
+- [Examples](#Usage-Examples)
+- [Supported Patterns](#Supported-Patterns)
 - [Architecture](#Architecture)
-- [Other Modules](#Other Modules)
+- [Other Modules](#Other-Modules)
 - [Testing](#Testing)
-- [Limitations](#Intentional Limitations)
+- [Limitations](#Intentional-Limitations)
 - [License](#License)
-- [Note](#Note on Yazi API)
+- [Note](#Note-on-Yazi-API)
 
 ---
 
