@@ -87,6 +87,7 @@ Will create 4 directories
 | {a..d} | a, b, c, d |
 | {d..a} | d, c, b, a (reverse) |
 | {ios,android}/{arm64,x86} | ios/arm64, ios/x86, android/arm64, android/x86 |
+
 Invalid patterns like project/{src,docs (unbalanced braces) are rejected with
 a clear error message. The plugin will not crash.
 
