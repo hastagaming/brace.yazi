@@ -32,10 +32,10 @@ no shell calls, no external dependencies.
 ### Example of brace:
 
 <p align="center">
-  <img src="assets/acp_demo.gif" alt="ACP terminal demo: core command, show mode, and security check" width="700">
+  <img src="assets/brace_example.gif" alt="ACP terminal demo: core command, show mode, and security check" width="700">
 </p>
 
-<p align="center"><sub>Real terminal output — core command, <code>-s</code> show mode, and <code>--check</code> security scan.</sub></p>
+<p align="center"><sub>Examples of Brace for yazi, show preview, and create nested file/folder.</sub></p>
 
 ### Installation
 Clone into your Yazi plugins directory:
