@@ -77,15 +77,16 @@ Will create 4 directories
 ---
 
 ### Supported Patterns
-|Pattern | Output|
-|project/{src,include,docs} | project/src, project/include, project/docs|
-|project/{src/{main,test},docs} | project/src/main, project/src/test, project/docs|
-|chapter{1..5} | chapter1, chapter2, ..., chapter5|
-|img{01..05} | img01, img02, ..., img05 (zero-padded)|
-|{A..D} | A, B, C, D|
-|{a..d} | a, b, c, d|
-|{d..a} | d, c, b, a (reverse)|
-|{ios,android}/{arm64,x86} | ios/arm64, ios/x86, android/arm64, android/x86|
+| Pattern | Output |
+|---|---|
+| project/{src,include,docs} | project/src, project/include, project/docs |
+| project/{src/{main,test},docs} | project/src/main, project/src/test, project/docs |
+| chapter{1..5} | chapter1, chapter2, ..., chapter5 |
+| img{01..05} | img01, img02, ..., img05 (zero-padded) |
+| {A..D} | A, B, C, D |
+| {a..d} | a, b, c, d |
+| {d..a} | d, c, b, a (reverse) |
+| {ios,android}/{arm64,x86} | ios/arm64, ios/x86, android/arm64, android/x86 |
 Invalid patterns like project/{src,docs (unbalanced braces) are rejected with
 a clear error message. The plugin will not crash.
 
